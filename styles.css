@@ -1,0 +1,188 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(16, 16, 74);
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 325px;
+    margin: 25px 0;
+    background-color: #f5f6f7;
+    border: 1px solid #f5f6f7;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px 0px rgba(223, 220, 220, 0.75);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#search-button {
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #7f21ab;
+    color: #f5f6f7;
+    border: none;
+}
+
+.output {
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.name-and-id {
+    margin-top: 10px;
+}
+
+.highContainer {
+    height: 250px;
+    
+}
+
+.imgContainer {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    width: 60%; /* Imposta la larghezza massima dell'immagine al 100% del suo contenitore */
+    height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni originali */
+}
+
+.stats_container {
+    padding-top: 76px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 320px;
+    font-size: 1 rem;
+    color: #f5f6f7;
+    background-color: #7f21ab;
+    
+}
+th:nth-child(even),
+td:nth-child(even) {
+  border-left: 5px solid #f5f6f7;
+}
+
+tr {
+  border-bottom: 5px solid #f5f6f7;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 2;
+}
+
+
+
+/* Rimozione dell'altezza percentuale su .type per garantire che la dimensione del testo non influisca sulla dimensione dell'elemento */
+.type {
+    width: 66px;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: red;
+    text-transform: uppercase;
+}
+
+.normal {
+    background-color: #b7b7aa;
+}
+
+.fire {
+    background-color: #ff6f52;
+}
+
+.water {
+    background-color: #42a1ff;
+}
+
+.electric {
+    background-color: #fecc33;
+}
+
+.grass {
+    background-color: #78cc55;
+}
+
+.ice {
+    background-color: #66ccfe;
+}
+
+.fighting {
+    background-color: #d3887e;
+}
+
+.poison {
+    background-color: #c68bb7;
+}
+
+.ground {
+    background-color: #dfba52;
+}
+
+.flying {
+background-color: #8899ff;
+}
+
+.psychic {
+    background-color: #ff66a3;
+}
+
+.bug {
+    background-color: #aabb23;
+}
+
+.rock {
+    background-color: #baaa66;
+}
+
+.ghost {
+    background-color: #9995d0;
+}
+
+.dragon {
+    background-color: #9e93f1;
+}
+
+.dark {
+background-color: #b59682;
+}
+
+.steel {
+    background-color: #abaabb;
+}
+
+.fairy {
+    background-color: #ed99ed;
+}
